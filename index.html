@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae en HTML</title>
+    <!--Conexión con CSS-->
+    <link rel="stylesheet" href="estilos.css"/>
+    <!--Tipografía--> 
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--Iconos--> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main class="container">
+        <div class="pagina1">
+                <section class="info_foto">
+                    <img class="info_img" src="foto.jpg" alt="Imagen primer plano de la persona"  />
+                </section>
+
+                <section class="info_personal">
+                    <div class="info_nombre"> 
+                        <h1>Lisa Montes</h1>
+                    </div>
+
+                    <ul>
+                        <li class="info_li">
+                            <div class="info_icon">
+                                <i class='bx bxs-flag-alt'></i>
+                            </div>
+                            <div class="info_txt">
+                                <p>País</p>
+                                <p>Argentina</p>
+                            </div>
+                        </li>
+                        <li class="info_li">
+                            <div class="info_icon">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="info_txt">
+                                <p>Ciudad</p>
+                                <p>Buenos Aires</p>
+                            </div>
+                        </li>
+                        <li class="info_li">
+                            <div class="info_icon">
+                                <i class='bx bxs-cake'></i>
+                            </div>
+                            <div class="info_txt">
+                                <p>Nacimiento</p>
+                                <p>20/04/1986</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </section>
+                <!--boton-->
+                <div class="boton" >
+                    <a href="#" id="sobremi">
+                        Sobre mi
+                        <i class="bx bx-chevrons-right"></i>
+                    </a>
+                </div>
+
+        </div>
+        <div class="pagina2" id="pag2">
+            <section class="formacion_academica">
+                <div class="academica_titulo">
+                    <i class='bx bxs-graduation'></i>
+                    <h2>Formación academica</h2>
+                </div>
+                <div class="academica_txt">
+                    <table>
+                        <tr>
+                            <td class="academica_año">2007 - 2011</td>
+                            <td>Ingeniería en Informática, Universidad de Buenos Aires</td>
+                        </tr>
+                        <tr>
+                            <td class="academica_año">2016 - 2020</td>
+                            <td>Especialización en Servicios y Redes de Telecomunicaciones, Universidad de Buenos Aires</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>  
+               
+            <section class="experiencia_laboral">
+                <div class="laboral_titulo">
+                    <i class='bx bxs-briefcase'></i>
+                    <h2>Experiencia laboral</h2>
+                </div>
+                <div class="laboral_txt">
+                    <table>
+                        <tr>
+                            <td class="laboral_año">2018 - presente</td>
+                            <td>Analista-Programador, Servicios Técnicos IT, Buenos Aires</td>
+                        </tr>
+                        <tr>
+                            <td class="laboral_año">2014 - 2018</td>
+                            <td>Programador Full Stack, Finanbest, Madrid</td>
+                        </tr>
+                        <tr>
+                            <td class="laboral_año">2011 - 2014</td>
+                            <td>Programadora web, Sistemas Informáticos SL, Rosario</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+             <!--boton-->
+             <div class="boton" >
+                <a href="#" id="volver">
+                    <i class="bx bx-chevrons-left"></i>
+                    Volver
+                </a>
+            </div>
+        </div>   
+        <div class="info_contacto">
+            <div class="contacto_txt">
+                <p>
+                   <span class="bold"> Contáctame </span>
+                </p>
+            </div>
+            <div class="contacto_iconos">
+                <a href="https://wa.me/" target="_blank">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="https://cl.linkedin.com/" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="mailto:correoelectronico@gmail.com" target="_blank">
+                  <i class='bx bxl-gmail'></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!--Conexión con JavaScript-->
+    <script src="app.js"></script>
+
+</body>
+</html>
